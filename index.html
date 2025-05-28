@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Cafe</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header -->
+
+<header class="header">
+
+    <section class="header-1">
+
+        <img class="logo" src="image/logo.png" alt="project logo">
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="favorite-btn" class="fas fa-heart"></div>
+            <div id="card-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </section>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about us">About Us</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>     
+        </nav>
+    </div>
+
+</header>
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#about us" class="fas fa-address-card"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#contact" class="fas fa-phone"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!--shopping card-->
+
+<div class="card_items">
+
+    <div id="close-card-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <div class="items">
+            <span class="fas fa-times"></span>
+            <img src="image/list (1).jfif">
+            <div class="content">
+                <h2>මැයි මාර ප්‍රසංගය</h2>
+                <div class="price">Rs.660.00</div>
+            </div>
+        </div>
+
+        <div class="items">
+            <span class="fas fa-times"></span>
+            <img src="image/list (5).jfif">
+            <div class="content">
+                <h2>ලයිලැක්</h2>
+                <div class="price">Rs.750.00</div>
+            </div>
+        </div>
+
+        <div class="items">
+            <span class="fas fa-times"></span>
+            <img src="image/list (14).jpg">
+            <div class="content">
+                <h2>අද්භූත යුවතිය</h2>
+                <div class="price">Rs.1500.00</div>
+            </div>
+        </div>
+        <div id="payment-btn" class="btn">Pay now</div>
+    </form>
+</div>
+
+<!--payment system-->
+
+<div class="payment-system">
+
+    <div id="close-pay-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>payment Process</h3>
+        <img src="image/card.jpeg">
+        <input type="number" name="" class="box" placeholder="Card nuumber">
+        <input type="text" name="" class="box" placeholder="Cardholder name">
+        <input type="text" name="" class="box" placeholder="MM/YY">
+        <input type="number" name="" class="box" placeholder="CVV">
+        <input type="number" name="" class="box" placeholder="Total amount">
+        <div class="checkbox">
+            <input type="checkbox" name="">
+            <label>Save card details</label>
+        </div>
+        <p>Your payment information is safe with us</p>
+        <input type="submit" value="submit" class="btn">
+    </form>
+
+</div>
+
+<!--favorite-->
+
+<div class="favorite-items">
+
+    <div id="close-favorite-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <div class="items">
+            <span class="fas fa-heart"></span>
+            <img src="image/list (2).jpg">
+            <div class="content">
+                <h2>බාඳුරා</h2>
+                <div class="price">Rs.1150.00</div>
+            </div>
+        </div>
+
+        <div class="items">
+            <span class="fas fa-heart"></span>
+            <img src="image/list (5).jfif">
+            <div class="content">
+                <h2>ලයිලැක්</h2>
+                <div class="price">Rs.750.00</div>
+            </div>
+        </div>
+
+        <div class="items">
+            <span class="fas fa-heart"></span>
+            <img src="image/list (4).jfif">
+            <div class="content">
+                <h2>නිල් කට්රොල්</h2>
+                <div class="price">Rs.800.00</div>
+            </div>
+        </div>
+
+        <div class="items">
+            <span class="fas fa-heart"></span>
+            <img src="image/list (14).jpg">
+            <div class="content">
+                <h2>අද්භූත යුවතිය</h2>
+                <div class="price">Rs.1500.00</div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- home section -->
+
+<div class="home-container">
+
+    <section class="home" id="home">
+
+        <div class="row">
+    
+            <div class="content">
+                <h3>WELCOME TO<br><span>READING CAFE</span></h3>
+                <p>Discover a world of literature at your fingertips. Browse our collection and find your next great read. So, wander through our virtual shelves, Discover novels that tell of themselves. Welcome to our literary space, Where each book brings a smile to your face.</p>
+                
+            </div>
+            <img src="image/book__3.png" class="image" alt="">
+    
+        </div>
+    
+    </section>
+
+</div>
+
+
+<!-- icons section -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over Rs.5000</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--about us-->
+ 
+<section class="about us" id="about us">
+    <h1 class="heading"> <span>About Us</span> </h1>
+    <div class="row">
+        <div class="image">
+            <img src="image/about.png" alt="">
+        </div>
+        <div class="content">
+            <p>Reading Cafe is an emerging literary publisher in Sri Lanka committed to promote Sri Lankan Writings in to the world. As a country rich with a remarkable history, we put our full efforts to deliver great writings that present glimpses of Sri Lankan literature . Our main scope is to provide publications that impact Sri Lankan readers' literary skills, particularly books that can instil good values among readers. Our publishing portfolio contains books and products for readers of all ages at every stage of life. Our list of authors includes writers of all stages, from emerging writing talents to award-winning authors. Thus, we ensure that the audience abundantly hears their voices.<br><br> At Reading Cafe, we're passionate about connecting readers with their next great adventure...
+            </p>
+            <div id="about-btn" class="btn">Learn More</div>
+        </div>
+    </div>
+</section>
+
+<!--about page-->
+
+<div class="about-page">
+
+    <div id="close-about-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <div class="items">
+            <img src="image/about.png">
+            <div class="content">
+                <h1>About Us </h1>
+                <p>Reading Cafe is an emerging literary publisher in Sri Lanka committed to promote Sri Lankan Writings in to the world. As a country rich with a remarkable history, we put our full efforts to deliver great writings that present glimpses of Sri Lankan literature . Our main scope is to provide publications that impact Sri Lankan readers' literary skills, particularly books that can instil good values among readers. Our publishing portfolio contains books and products for readers of all ages at every stage of life. Our list of authors includes writers of all stages, from emerging writing talents to award-winning authors. Thus, we ensure that the audience abundantly hears their voices.<br><br> At Reading Cafe, we're passionate about connecting readers with their next great adventure. Explore our curated collection of books spanning genres, from timeless classics to contemporary bestsellers. Immerse yourself in the world of literature, sip on the rich blend of stories, and savor the joy of reading. Join us in this literary journey, where every page turns into a delightful experience. Cheers to a cup of coffee and a world of stories at Reading Cafe!"
+                </p>
+            </div>
+        </div>
+
+        <div class="items">
+            <h1>Mission</h1>
+            <p>"Empowering minds through the magic of literature, our mission at Reading Cafe is to create a vibrant online space where readers of all tastes and ages can discover, embrace, and share the transformative power of books. We strive to foster a community that celebrates diversity in storytelling, connecting readers with narratives that inspire, challenge, and entertain."</p>
+        </div>
+
+        <div class="items">
+            <h1>Vision</h1>
+            <p>"As we look ahead, Reading Cafe envisions becoming a premier online destination, not just for buying books but for cultivating a global reading culture. We aspire to be a platform that transcends borders, bringing together book enthusiasts to exchange ideas, explore new perspectives, and collectively build a more enlightened and connected world through the love of reading."</p>
+        </div>
+    </form>
+</div>
+
+<!-- featured -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (1).jfif" alt="">
+                </div>
+                <div class="content">
+                    <h2>මැයි මාර ප්‍රසංගය</h2>
+                    <p class="writer">Mahinda Prasad Masimbulla</p> 
+                    <p class="price">Rs.660.00 <sub><del>Rs.750.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (2).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>බාඳුරා</h2>
+                    <p class="writer">Narmada rangodage</p> 
+                    <p class="price">Rs.1150.00 <sub><del>Rs.1340.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (4).jfif" alt="">
+                </div>
+                <div class="content">
+                    <h2>නිල් කට්රොල්</h2>
+                    <p class="writer">Mohan raj madawala</p> 
+                    <p class="price">Rs.800.00 <sub><del>Rs.910.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (5).jfif" alt="">
+                </div>
+                <div class="content">
+                    <h2>ලයිලැක්</h2>
+                    <p class="writer">Yesha Fernando</p> 
+                    <p class="price">Rs.750.00 <sub><del>Rs.900.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (6).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>නැපෝලියන්</h2>
+                    <p class="writer">K.B.Sugathadasa</p> 
+                    <p class="price">Rs.860.00 <sub><del>Rs.940.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (7).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2 class="two">No stopping or turning backk</h2>
+                    <p class="writer">Upul Shantha Sannasgala</p> 
+                    <p class="price">Rs.960.00 <sub><del>Rs.1300.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (3).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2 class="one">May December Romance</h2>
+                    <p class="writer">Upul Shantha Sannasgala</p> 
+                    <p class="price">Rs.1100.00 <sub><del>Rs.1450.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (8).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>සෙංකොට්ටං</h2>
+                    <p class="writer">Mahinda Prasad Masimbulla</p> 
+                    <p class="price">Rs.1200.00 <sub><del>Rs.1550.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (10).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>The Jungle Book</h2>
+                    <p class="writer">Rudyard Kipling</p> 
+                    <p class="price">Rs.780.00 <sub><del>Rs.890.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/list (12).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>අහසක් තරම්</h2>
+                    <p class="writer">Asheni warsha</p> 
+                    <p class="price">Rs.1500.00 <sub><del>Rs.2200.00</del></sub></p>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- newsletter  -->
+
+<div class="newsletter-container">
+
+    <section class="newsletter">
+
+        <form action="">
+            <h1>BOOKS</h1>
+            <p class="two">I do belive something very magical can happen when you read a good book...</p>
+        </form>
+    
+    </section>
+
+</div>
+
+<!-- arrivals -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>new arrivals</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (13).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>අම්මා</h3>
+                    <div class="price">Rs.1150.00 <span>Rs.1800.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (14).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>අද්භූත යුවතිය</h3>
+                    <div class="price">Rs.950.00 <span>Rs.1150.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (15).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>මන්දිරා</h3>
+                    <div class="price">Rs.2100.00 <span>Rs.2300.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (16).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cyberbullying in Sri Lanka</h3>
+                    <div class="price">Rs.550.00 <span>Rs.790.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (17).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>DAN Brown</h3>
+                    <div class="price">Rs.1500.00 <span>Rs.1850.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (18).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>මීළඟ මීවිත</h3>
+                    <div class="price">Rs.950.00 <span>Rs.1050.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (19).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>මා ඇය නොවේ</h3>
+                    <div class="price">Rs.1120.00 <span>Rs.1350.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (20).jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ශේෂ කඳු</h3>
+                    <div class="price">Rs.1800.00 <span>Rs.2100.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (21).jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>මගේ කුලුඳුල් පෙම්වතිය</h3>
+                    <div class="price">Rs.850.00 <span>Rs.980.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/list (22).jfif" alt="">
+                </div>
+                <div class="content">
+                    <h3>Forget me not</h3>
+                    <div class="price">Rs.860.00 <span>Rs.970.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- discount section  -->
+
+<div class="discount_container">
+
+    <section class="discount">
+
+        <div class="content">
+            <h3>Book Store Sale</h3>
+            <h1>upto 50% off</h1>
+            <p>"Don't miss out – embrace the joy of reading with savings that make every book a treasure!"</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    
+        <div class="image">
+            <img src="image/deal-img.jpg" alt="">
+        </div>
+    
+    </section>
+    
+    
+</div>
+
+<!-- reviews -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>client's reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <img src="image/person1.jfif" alt="">
+                <h3>Yash Fernando</h3>
+                <p>Reading Cafe made buying books online so easy! The website is intuitive, and the checkout process is a breeze.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <img src="image/person2.jfif" alt="">
+                <h3>Anya Livera</h3>
+                <p>I love the variety of books available at Reading Cafe. The website is well-designed, making it enjoyable to explore and discover new reads</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <img src="image/person3.jfif" alt="">
+                <h3>john Devid</h3>
+                <p>As a tech-savvy reader, I appreciate the seamless experience of Reading Cafe. It's my go-to place for all things literary</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <img src="image/person4.jfif" alt="">
+                <h3>Clarin Krishteen</h3>
+                <p>Reading Cafe combines the charm of a physical bookstore with the convenience of online shopping. The reviews and recommendations are helpful in making informed choices.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+    
+</section>
+
+
+<!--contact-->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Contact</span></h1>
+
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0071682451876!2d79.88505697316161!3d6.889743793109308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25b3215f601c7%3A0x171a77fd0c476d09!2sThe%20Reading%20Cafe%20By%20Bookrack!5e0!3m2!1sen!2slk!4v1707733438477!5m2!1sen!2slk" allowfullscreen="" loading="lazy"></iframe>
+
+        <form action="">
+            <h3>Get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+
+</section>
+
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> colombo </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> kandy </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> chilaw </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> jaffa </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> negombo </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> matale </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> about us </a>
+            <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#arrivals"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#contact"> <i class="fas fa-arrow-right"></i> contact </a>
+            
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +94 77 284 5789 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +94 71 685 2459 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> readingcafe@gmail.com </a>
+            <img src="image/logo.png" class="logo" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="create"> created by <span>W.A.N.Fernando</span></div>
+
+</section>
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!--js link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
